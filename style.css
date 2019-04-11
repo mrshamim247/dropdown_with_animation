@@ -1,0 +1,162 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*body*/
+body {
+    width: 1200px;
+    margin: 10px 10 10px 0px;
+    padding-top: 10px;
+}
+
+/*Header
+#head {
+    position: relative;
+}
+
+#head span img {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 180px;
+    height: 150px;
+}
+
+#head img {
+    width: 1200px;
+    height: 200px;
+}*/
+
+
+
+
+
+/*Menubar*/
+#home {
+    background-color: red;
+}
+
+.menu {
+    width: 960px;
+    opacity: .8;
+    margin-bottom: 5px auto;
+    
+}
+
+.menu ul {
+    background-color: green;
+    opacity: .8;
+    width: 100%;
+    border-radius: 8px 8px solid;
+}
+
+.menu ul li {
+
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
+
+.menu ul li a {
+    color: #fff;
+    font-family: lato;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: georgia;
+
+}
+
+
+.menu ul li ul {
+    position: absolute;
+    left: -9999px;
+    opacity: .8 
+}
+
+
+
+.menu ul li:hover ul {
+    left: 0;
+}
+
+
+/*menu background color*/
+
+#tutorial {
+    transition: background 3s;
+}
+
+#tutorial:hover {
+    background: #F30B6E;
+}
+
+#contact {
+    transition: background 3s;
+}
+
+#contact:hover {
+    background: #F56311;
+}
+
+#services {
+    transition: background 3s;
+}
+
+#services:hover {
+    background: #0B5283;
+}
+
+#about {
+    transition: background 3s;
+}
+
+#about:hover {
+    background: #E40202;
+}
+
+#webdesign {
+    transition: background 3s;
+}
+
+#webdesign:hover {
+    background: #8129C2;
+}
+
+#webdev {
+    transition: background 3s;
+}
+
+#webdev:hover {
+    background: #DD2CEB;
+}
+
+#psd {
+    transition: background 3s;
+}
+
+#psd:hover {
+    background: #FF0000;
+}
+
+
+
+/*transition*/
+.menu ul li ul{
+    transition: width 4s;
+}
+
+.menu ul li:hover ul{
+    width: 200px;
+}
+.menu ul li:hover ul li{
+    width: 200px;
+}
+
+
+/*Slider*/
+
+/*Content*/
